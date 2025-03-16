@@ -1,6 +1,6 @@
 import { Hero } from "./components/Hero/Hero";
 import { Highlights } from "./components/Highlights";
-import { Navabar } from "./components/Navbar";
+import { Navabar } from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
