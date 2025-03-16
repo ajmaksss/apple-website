@@ -4,9 +4,11 @@ import { useState } from "react";
 import { useEffect } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { Controls } from "./Controls";
 import { Slide } from "./Slide/Slide";
 import { Footer } from "./Footer/Footer";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export const VideoCarousel = () => {
   const videoRef = useRef([]);
