@@ -1,8 +1,14 @@
+import { Hero } from "./components/Hero";
+import { Highlights } from "./components/Highlights";
+import { Navabar } from "./components/Navbar";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="underline">test</h1>
-    </div>
+    <main className="bg-black">
+      <Navabar />
+      <Hero />
+      <Highlights />
+    </main>
   );
 };
 
